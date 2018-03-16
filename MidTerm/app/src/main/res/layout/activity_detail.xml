@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cherr.midterm.DetailActivity">
+
+    <TextView
+        android:id="@+id/textViewApp_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/TVD"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDate_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewApp_D"
+        android:layout_below="@+id/textViewApp_D"
+        android:layout_marginTop="15dp"
+        android:text="@string/DATE_D"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewDate_D"
+
+        android:layout_marginTop="51dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewGenre_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewDate_D"
+        android:layout_below="@+id/imageView2"
+
+        android:layout_marginTop="42dp"
+        android:text="@string/Genre_D"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewGenre_D"
+        android:layout_below="@+id/textViewGenre_D"
+        android:textAlignment="center"
+        android:layout_marginTop="19dp"
+        android:text="@string/Dev" />
+
+    <TextView
+        android:id="@+id/textViewCopyRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDeveloper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/CR"
+        android:textAlignment="center" />
+</RelativeLayout>

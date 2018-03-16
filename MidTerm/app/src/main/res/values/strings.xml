@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MidTerm</string>
+    <string name="TVGenre">Genre:</string>
+    <string name="TVAll">All</string>
+    <string name="Filter">Filter</string>
+    <string name="TVApp">App Name</string>
+    <string name="TVartist">Artist Name</string>
+    <string name="TVDate">Release Date</string>
+    <string name="TVGenreArray">Genre</string>
+    <string name="TVD">App Name</string>
+    <string name="DATE_D">Release Date</string>
+    <string name="Genre_D">Genres</string>
+    <string name="CR">Copyright</string>
+    <string name="Dev">App Dev</string>
+</resources>
